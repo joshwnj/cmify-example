@@ -1,0 +1,4 @@
+.time {
+  composes: time from "./item.css";
+  color: purple;
+}

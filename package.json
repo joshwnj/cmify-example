@@ -1,0 +1,23 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify -p cmify/plugin src/index.js -o dist/index.js",
+    "hot": "watchify -p browserify-hmr -p cmify/plugin src/index.js -o dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "joshwnj",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "browserify-hmr": "^0.3.1",
+    "watchify": "^3.7.0"
+  },
+  "dependencies": {
+    "cmify": "^1.0.0",
+    "insert-css": "^0.2.0"
+  }
+}

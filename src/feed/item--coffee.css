@@ -1,0 +1,10 @@
+.root {
+  composes: root from "./item.css";
+  border-color: blue;
+}
+
+.time {
+  composes: time from "./item.css";
+  font-weight: bold;
+  color: blue;
+}

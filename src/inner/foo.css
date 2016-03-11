@@ -1,0 +1,5 @@
+.foo {
+  composes: abc from "../shared.css";
+  border-color: green;
+  font-size: 100px;
+}

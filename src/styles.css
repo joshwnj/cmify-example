@@ -1,0 +1,13 @@
+@value color: green;
+
+.root {
+  composes: rounded from "./shared.css";
+  border: 1px solid color;
+  padding: 10px;
+}
+
+.inner {
+  composes: foo from "./inner/foo.css";
+  background: green;
+  color: white;
+}
