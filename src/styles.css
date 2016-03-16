@@ -4,6 +4,7 @@
   composes: rounded from "./shared.css";
   border: 1px solid color;
   padding: 10px;
+  background: linear-gradient(red, yellow);
 }
 
 .inner {

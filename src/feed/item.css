@@ -1,6 +1,7 @@
 .root {
   width: 200px;
   border: 1px solid #000;
+  background: #FFF;
   padding: 5px;
   margin: 5px;
 }
